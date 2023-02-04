@@ -8,7 +8,7 @@ ENV NODE_ENV development
 WORKDIR /usr/src/client-app
 
 # Installing dependencies
-COPY ./package.json /react-app
+COPY ./package.json /client-app
 RUN npm install
 
 # Copying all the files in our project
