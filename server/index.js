@@ -95,7 +95,7 @@ function convertToFixedDecimal(num, pos) {
   return parseFloat(num).toFixed(pos);
 }
 
-const port = 8080;
+const port = 3001;
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
 });
